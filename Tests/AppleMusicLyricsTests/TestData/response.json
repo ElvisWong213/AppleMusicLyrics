@@ -1,0 +1,134 @@
+{
+  "data": [
+    {
+      "id": "1729188121",
+      "type": "songs",
+      "href": "/v1/catalog/hk/songs/1729188121?l=zh-Hant-HK",
+      "attributes": {
+        "albumName": "無答案 - Single",
+        "hasTimeSyncedLyrics": true,
+        "genreNames": ["廣東歌/香港流行樂", "音樂", "流行樂"],
+        "trackNumber": 1,
+        "durationInMillis": 242112,
+        "releaseDate": "2024-02-16",
+        "isVocalAttenuationAllowed": true,
+        "isMasteredForItunes": false,
+        "isrc": "HKC992400001",
+        "artwork": {
+          "width": 3543,
+          "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/16/54/2b/16542bdd-ccf0-8bc2-68a3-f2c6f1a969d4/754213531218.jpg/{w}x{h}bb.jpg",
+          "height": 3543,
+          "textColor3": "cbcbcb",
+          "textColor2": "cbcbcb",
+          "textColor4": "a2a2a2",
+          "textColor1": "ffffff",
+          "bgColor": "000000",
+          "hasP3": true
+        },
+        "audioLocale": "zh-Hant-HK",
+        "composerName": "林家謙",
+        "url": "https://music.apple.com/hk/album/%E7%84%A1%E7%AD%94%E6%A1%88/1729188120?i=1729188121",
+        "playParams": { "id": "1729188121", "kind": "song" },
+        "discNumber": 1,
+        "hasCredits": false,
+        "isAppleDigitalMaster": false,
+        "hasLyrics": true,
+        "audioTraits": ["lossless", "lossy-stereo"],
+        "name": "無答案",
+        "previews": [
+          {
+            "url": "https://audio-ssl.itunes.apple.com/itunes-assets/AudioPreview122/v4/b6/63/13/b6631392-c35d-b437-93bc-c2696ac6dc57/mzaf_6601696015667540485.plus.aac.ep.m4a"
+          }
+        ],
+        "artistName": "林家謙"
+      },
+      "relationships": {
+        "albums": {
+          "href": "/v1/catalog/hk/songs/1729188121/albums?l=zh-Hant-HK",
+          "data": [
+            {
+              "id": "1729188120",
+              "type": "albums",
+              "href": "/v1/catalog/hk/albums/1729188120?l=zh-Hant-HK",
+              "attributes": {
+                "copyright": "℗ Terence Lam Production & Co.",
+                "genreNames": ["廣東歌/香港流行樂", "音樂", "流行樂"],
+                "releaseDate": "2024-02-16",
+                "upc": "754213531218",
+                "isMasteredForItunes": false,
+                "artwork": {
+                  "width": 3543,
+                  "url": "https://is1-ssl.mzstatic.com/image/thumb/Music116/v4/16/54/2b/16542bdd-ccf0-8bc2-68a3-f2c6f1a969d4/754213531218.jpg/{w}x{h}bb.jpg",
+                  "height": 3543,
+                  "textColor3": "cbcbcb",
+                  "textColor2": "cbcbcb",
+                  "textColor4": "a2a2a2",
+                  "textColor1": "ffffff",
+                  "bgColor": "000000",
+                  "hasP3": true
+                },
+                "url": "https://music.apple.com/hk/album/%E7%84%A1%E7%AD%94%E6%A1%88-single/1729188120",
+                "playParams": { "id": "1729188120", "kind": "album" },
+                "recordLabel": "Terence Lam Production & Co.",
+                "trackCount": 1,
+                "isCompilation": false,
+                "isPrerelease": false,
+                "audioTraits": ["lossless", "lossy-stereo"],
+                "isSingle": true,
+                "name": "無答案 - Single",
+                "artistName": "林家謙",
+                "isComplete": true
+              }
+            }
+          ]
+        },
+        "lyrics": {
+          "href": "/v1/catalog/hk/songs/1729188121/lyrics?l=zh-Hant-HK",
+          "data": [
+            {
+              "id": "1729188121",
+              "type": "lyrics",
+              "attributes": {
+                "ttml": "<tt xmlns=\"http://www.w3.org/ns/ttml\" xmlns:itunes=\"http://music.apple.com/lyric-ttml-internal\" xmlns:ttm=\"http://www.w3.org/ns/ttml#metadata\" itunes:timing=\"Line\" xml:lang=\"zh-Hant\"><head><metadata><ttm:agent type=\"person\" xml:id=\"v1\"/><iTunesMetadata xmlns=\"http://music.apple.com/lyric-ttml-internal\" leadingSilence=\"0.340\"><translations/><songwriters><songwriter>林家謙</songwriter></songwriters></iTunesMetadata></metadata></head><body dur=\"4:02.112\"><div begin=\"18.666\" end=\"42.793\" itunes:songPart=\"Verse\"><p begin=\"18.666\" end=\"23.877\" itunes:key=\"L1\" ttm:agent=\"v1\">呼吸之中聽得到脈搏心跳聲</p><p begin=\"25.426\" end=\"30.348\" itunes:key=\"L2\" ttm:agent=\"v1\">多少晚要給心裡盤問究竟</p><p begin=\"32.106\" end=\"37.142\" itunes:key=\"L3\" ttm:agent=\"v1\">只得燈光的呼應和浮塵做證</p><p begin=\"38.046\" end=\"42.793\" itunes:key=\"L4\" ttm:agent=\"v1\">憂鬱對抗孤寂</p></div><div begin=\"45.495\" end=\"1:11.208\" itunes:songPart=\"Verse\"><p begin=\"45.495\" end=\"50.780\" itunes:key=\"L5\" ttm:agent=\"v1\">聽到了腳步 可會習慣想去躲</p><p begin=\"52.142\" end=\"57.593\" itunes:key=\"L6\" ttm:agent=\"v1\">只敢將不安心理藏入被窩</p><p begin=\"58.867\" end=\"1:04.306\" itunes:key=\"L7\" ttm:agent=\"v1\">幽房釋出的光 猶如被蠶食過</p><p begin=\"1:04.793\" end=\"1:11.208\" itunes:key=\"L8\" ttm:agent=\"v1\">躲於月下赤裸</p></div><div begin=\"1:11.858\" end=\"1:46.228\" itunes:songPart=\"Chorus\"><p begin=\"1:11.858\" end=\"1:17.536\" itunes:key=\"L9\" ttm:agent=\"v1\">雙眼合上 看到了寂寞</p><p begin=\"1:18.575\" end=\"1:24.502\" itunes:key=\"L10\" ttm:agent=\"v1\">張眼望見 所失很清楚</p><p begin=\"1:25.282\" end=\"1:31.253\" itunes:key=\"L11\" ttm:agent=\"v1\">想要填滿落空的過往</p><p begin=\"1:31.582\" end=\"1:34.735\" itunes:key=\"L12\" ttm:agent=\"v1\">心有很多個如果</p><p begin=\"1:34.910\" end=\"1:40.997\" itunes:key=\"L13\" ttm:agent=\"v1\">驟變幾多個 沒終於的答案</p><p begin=\"1:41.644\" end=\"1:46.228\" itunes:key=\"L14\" ttm:agent=\"v1\">並藏於暗裡渡過</p></div><div begin=\"1:47.681\" end=\"2:13.408\" itunes:songPart=\"Verse\"><p begin=\"1:47.681\" end=\"1:53.165\" itunes:key=\"L15\" ttm:agent=\"v1\">瑟縮於窗邊一角 呆呆地遙望</p><p begin=\"1:54.382\" end=\"1:59.497\" itunes:key=\"L16\" ttm:agent=\"v1\">倘把星空數一遍 能睡了麼</p><p begin=\"2:00.949\" end=\"2:06.216\" itunes:key=\"L17\" ttm:agent=\"v1\">響咹可否跟跟我聊話到曙光</p><p begin=\"2:06.582\" end=\"2:13.408\" itunes:key=\"L18\" ttm:agent=\"v1\">請不要說晚安</p></div><div begin=\"2:13.618\" end=\"2:49.960\" itunes:songPart=\"Chorus\"><p begin=\"2:13.618\" end=\"2:19.196\" itunes:key=\"L19\" ttm:agent=\"v1\">雙眼合上 看到了寂寞</p><p begin=\"2:20.414\" end=\"2:26.552\" itunes:key=\"L20\" ttm:agent=\"v1\">張眼望見 暗影很清楚</p><p begin=\"2:27.031\" end=\"2:33.197\" itunes:key=\"L21\" ttm:agent=\"v1\">想告別最熟悉的那個</p><p begin=\"2:33.386\" end=\"2:36.539\" itunes:key=\"L22\" ttm:agent=\"v1\">心有很多個如果</p><p begin=\"2:36.680\" end=\"2:43.129\" itunes:key=\"L23\" ttm:agent=\"v1\">驟變幾多個 沒可取的答案</p><p begin=\"2:43.440\" end=\"2:49.960\" itunes:key=\"L24\" ttm:agent=\"v1\">並藏於暗裡渡過</p></div><div begin=\"2:53.899\" end=\"3:28.023\" itunes:songPart=\"Chorus\"><p begin=\"2:53.899\" end=\"3:00.002\" itunes:key=\"L25\" ttm:agent=\"v1\">幾百萬個背影中墮落</p><p begin=\"3:00.550\" end=\"3:06.731\" itunes:key=\"L26\" ttm:agent=\"v1\">於那霓虹映中交錯過</p><p begin=\"3:07.286\" end=\"3:13.246\" itunes:key=\"L27\" ttm:agent=\"v1\">找上萬個自欺的寄託</p><p begin=\"3:13.547\" end=\"3:16.767\" itunes:key=\"L28\" ttm:agent=\"v1\">彷似得到過什麼</p><p begin=\"3:16.888\" end=\"3:23.341\" itunes:key=\"L29\" ttm:agent=\"v1\">在瞬間失去 就這般給遺忘</p><p begin=\"3:23.656\" end=\"3:28.023\" itunes:key=\"L30\" ttm:agent=\"v1\">終究可有快樂過</p></div><div begin=\"3:34.198\" end=\"3:49.970\" itunes:songPart=\"Outro\"><p begin=\"3:34.198\" end=\"3:36.941\" itunes:key=\"L31\" ttm:agent=\"v1\">心空了什麼</p><p begin=\"3:37.773\" end=\"3:43.615\" itunes:key=\"L32\" ttm:agent=\"v1\">感覺再累 都不懂為何</p><p begin=\"3:44.191\" end=\"3:49.970\" itunes:key=\"L33\" ttm:agent=\"v1\">躺好再看 人來又往</p></div></body></tt>",
+                "playParams": {
+                  "id": "AP_1729188121",
+                  "kind": "lyric",
+                  "catalogId": "1729188121",
+                  "displayType": 2
+                }
+              }
+            }
+          ]
+        },
+        "artists": {
+          "href": "/v1/catalog/hk/songs/1729188121/artists?l=zh-Hant-HK",
+          "data": [
+            {
+              "id": "1052638496",
+              "type": "artists",
+              "href": "/v1/catalog/hk/artists/1052638496?l=zh-Hant-HK"
+            }
+          ]
+        },
+        "syllable-lyrics": {
+          "href": "/v1/catalog/hk/songs/1729188121/syllable-lyrics?l=zh-Hant-HK",
+          "data": [
+            {
+              "id": "1729188121",
+              "type": "syllable-lyrics",
+              "attributes": {
+                "ttml": "<tt xmlns=\"http://www.w3.org/ns/ttml\" xmlns:itunes=\"http://music.apple.com/lyric-ttml-internal\" xmlns:ttm=\"http://www.w3.org/ns/ttml#metadata\" itunes:timing=\"Word\" xml:lang=\"zh-Hant\"><head><metadata><ttm:agent type=\"person\" xml:id=\"v1\"/><iTunesMetadata xmlns=\"http://music.apple.com/lyric-ttml-internal\" leadingSilence=\"0.340\"><translations/><songwriters><songwriter>林家謙</songwriter></songwriters></iTunesMetadata></metadata></head><body dur=\"4:02.112\"><div begin=\"18.666\" end=\"42.793\" itunes:songPart=\"Verse\"><p begin=\"18.666\" end=\"23.877\" itunes:key=\"L1\" ttm:agent=\"v1\"><span begin=\"18.666\" end=\"19.511\">呼吸</span><span begin=\"19.511\" end=\"19.880\">之</span><span begin=\"19.880\" end=\"21.083\">中聽得</span><span begin=\"21.083\" end=\"21.669\">到</span><span begin=\"21.736\" end=\"22.125\">脈</span><span begin=\"22.125\" end=\"22.376\">搏</span><span begin=\"22.376\" end=\"23.189\">心跳</span><span begin=\"23.189\" end=\"23.877\">聲</span></p><p begin=\"25.426\" end=\"30.348\" itunes:key=\"L2\" ttm:agent=\"v1\"><span begin=\"25.426\" end=\"26.325\">多少</span><span begin=\"26.325\" end=\"26.640\">晚</span><span begin=\"26.640\" end=\"27.894\">要給心</span><span begin=\"27.894\" end=\"28.425\">裡</span><span begin=\"28.458\" end=\"29.699\">盤問究</span><span begin=\"29.699\" end=\"30.348\">竟</span></p><p begin=\"32.106\" end=\"37.142\" itunes:key=\"L3\" ttm:agent=\"v1\"><span begin=\"32.106\" end=\"32.666\">只</span><span begin=\"32.666\" end=\"33.044\">得</span><span begin=\"33.044\" end=\"33.335\">燈</span><span begin=\"33.335\" end=\"34.485\">光的呼</span><span begin=\"34.485\" end=\"35.079\">應</span><span begin=\"35.079\" end=\"35.510\">和</span><span begin=\"35.510\" end=\"35.741\">浮</span><span begin=\"35.741\" end=\"36.589\">塵做</span><span begin=\"36.589\" end=\"37.142\">證</span></p><p begin=\"38.046\" end=\"42.793\" itunes:key=\"L4\" ttm:agent=\"v1\"><span begin=\"38.046\" end=\"38.504\">憂</span><span begin=\"38.504\" end=\"39.161\">鬱</span><span begin=\"39.366\" end=\"39.759\">對</span><span begin=\"39.759\" end=\"40.538\">抗</span><span begin=\"40.538\" end=\"41.439\">孤</span><span begin=\"41.439\" end=\"42.793\">寂</span></p></div><div begin=\"45.495\" end=\"1:11.208\" itunes:songPart=\"Verse\"><p begin=\"45.495\" end=\"50.780\" itunes:key=\"L5\" ttm:agent=\"v1\"><span begin=\"45.495\" end=\"46.416\">聽到</span><span begin=\"46.416\" end=\"46.727\">了</span><span begin=\"46.727\" end=\"47.530\">腳步</span> <span begin=\"47.530\" end=\"47.960\">可</span><span begin=\"47.960\" end=\"48.482\">會</span><span begin=\"48.482\" end=\"48.927\">習</span><span begin=\"48.927\" end=\"49.189\">慣</span><span begin=\"49.189\" end=\"50.012\">想去</span><span begin=\"50.012\" end=\"50.780\">躲</span></p><p begin=\"52.142\" end=\"57.593\" itunes:key=\"L6\" ttm:agent=\"v1\"><span begin=\"52.142\" end=\"52.761\">只</span><span begin=\"52.761\" end=\"53.103\">敢</span><span begin=\"53.103\" end=\"53.424\">將</span><span begin=\"53.424\" end=\"54.617\">不安心</span><span begin=\"54.617\" end=\"55.128\">理</span><span begin=\"55.128\" end=\"56.509\">藏入被</span><span begin=\"56.509\" end=\"57.593\">窩</span></p><p begin=\"58.867\" end=\"1:04.306\" itunes:key=\"L7\" ttm:agent=\"v1\"><span begin=\"58.867\" end=\"59.746\">幽房</span><span begin=\"59.746\" end=\"1:00.022\">釋</span><span begin=\"1:00.022\" end=\"1:01.235\">出的光</span> <span begin=\"1:01.235\" end=\"1:01.852\">猶</span><span begin=\"1:01.852\" end=\"1:02.571\">如被</span><span begin=\"1:02.571\" end=\"1:03.442\">蠶食</span><span begin=\"1:03.442\" end=\"1:04.306\">過</span></p><p begin=\"1:04.793\" end=\"1:11.208\" itunes:key=\"L8\" ttm:agent=\"v1\"><span begin=\"1:04.793\" end=\"1:05.315\">躲</span><span begin=\"1:05.315\" end=\"1:06.178\">於</span><span begin=\"1:06.178\" end=\"1:06.530\">月</span><span begin=\"1:06.530\" end=\"1:07.299\">下</span><span begin=\"1:07.299\" end=\"1:08.249\">赤</span><span begin=\"1:08.249\" end=\"1:11.208\">裸</span></p></div><div begin=\"1:11.858\" end=\"1:46.228\" itunes:songPart=\"Chorus\"><p begin=\"1:11.858\" end=\"1:17.536\" itunes:key=\"L9\" ttm:agent=\"v1\"><span begin=\"1:11.858\" end=\"1:12.733\">雙眼</span><span begin=\"1:12.733\" end=\"1:13.039\">合</span><span begin=\"1:13.039\" end=\"1:13.732\">上</span> <span begin=\"1:13.732\" end=\"1:15.413\">看到</span><span begin=\"1:15.413\" end=\"1:16.409\">了</span><span begin=\"1:16.604\" end=\"1:16.917\">寂</span><span begin=\"1:16.917\" end=\"1:17.536\">寞</span></p><p begin=\"1:18.575\" end=\"1:24.502\" itunes:key=\"L10\" ttm:agent=\"v1\"><span begin=\"1:18.575\" end=\"1:19.109\">張</span><span begin=\"1:19.109\" end=\"1:19.787\">眼望</span><span begin=\"1:19.787\" end=\"1:20.338\">見</span> <span begin=\"1:20.338\" end=\"1:22.101\">所失</span><span begin=\"1:22.101\" end=\"1:23.288\">很</span><span begin=\"1:23.288\" end=\"1:23.613\">清</span><span begin=\"1:23.613\" end=\"1:24.502\">楚</span></p><p begin=\"1:25.282\" end=\"1:31.253\" itunes:key=\"L11\" ttm:agent=\"v1\"><span begin=\"1:25.282\" end=\"1:25.848\">想</span><span begin=\"1:25.848\" end=\"1:26.590\">要填</span><span begin=\"1:26.590\" end=\"1:27.101\">滿</span><span begin=\"1:27.101\" end=\"1:28.838\">落空</span><span begin=\"1:28.838\" end=\"1:30.041\">的</span><span begin=\"1:30.041\" end=\"1:30.336\">過</span><span begin=\"1:30.336\" end=\"1:31.253\">往</span></p><p begin=\"1:31.582\" end=\"1:34.735\" itunes:key=\"L12\" ttm:agent=\"v1\"><span begin=\"1:31.582\" end=\"1:32.122\">心有</span><span begin=\"1:32.122\" end=\"1:33.437\">很多個</span><span begin=\"1:33.437\" end=\"1:33.691\">如</span><span begin=\"1:33.691\" end=\"1:34.735\">果</span></p><p begin=\"1:34.910\" end=\"1:40.997\" itunes:key=\"L13\" ttm:agent=\"v1\"><span begin=\"1:34.910\" end=\"1:35.496\">驟變</span><span begin=\"1:35.496\" end=\"1:36.714\">幾多個</span> <span begin=\"1:36.714\" end=\"1:36.959\">沒</span><span begin=\"1:36.959\" end=\"1:38.721\">終於</span><span begin=\"1:38.721\" end=\"1:39.868\">的</span><span begin=\"1:39.956\" end=\"1:40.314\">答</span><span begin=\"1:40.314\" end=\"1:40.997\">案</span></p><p begin=\"1:41.644\" end=\"1:46.228\" itunes:key=\"L14\" ttm:agent=\"v1\"><span begin=\"1:41.644\" end=\"1:42.218\">並藏</span><span begin=\"1:42.218\" end=\"1:43.429\">於</span><span begin=\"1:43.429\" end=\"1:43.759\">暗</span><span begin=\"1:43.759\" end=\"1:44.705\">裡</span><span begin=\"1:44.762\" end=\"1:45.281\">渡</span><span begin=\"1:45.281\" end=\"1:46.228\">過</span></p></div><div begin=\"1:47.681\" end=\"2:13.408\" itunes:songPart=\"Verse\"><p begin=\"1:47.681\" end=\"1:53.165\" itunes:key=\"L15\" ttm:agent=\"v1\"><span begin=\"1:47.681\" end=\"1:48.623\">瑟縮</span><span begin=\"1:48.623\" end=\"1:48.891\">於</span><span begin=\"1:48.891\" end=\"1:50.118\">窗邊一</span><span begin=\"1:50.118\" end=\"1:50.567\">角</span> <span begin=\"1:50.650\" end=\"1:51.197\">呆</span><span begin=\"1:51.197\" end=\"1:51.523\">呆</span><span begin=\"1:51.523\" end=\"1:52.275\">地遙</span><span begin=\"1:52.275\" end=\"1:53.165\">望</span></p><p begin=\"1:54.382\" end=\"1:59.497\" itunes:key=\"L16\" ttm:agent=\"v1\"><span begin=\"1:54.382\" end=\"1:55.228\">倘把</span><span begin=\"1:55.228\" end=\"1:55.535\">星</span><span begin=\"1:55.535\" end=\"1:56.708\">空數一</span><span begin=\"1:56.708\" end=\"1:57.299\">遍</span> <span begin=\"1:57.362\" end=\"1:58.543\">能睡了</span><span begin=\"1:58.543\" end=\"1:59.497\">麼</span></p><p begin=\"2:00.949\" end=\"2:06.216\" itunes:key=\"L17\" ttm:agent=\"v1\"><span begin=\"2:00.949\" end=\"2:01.712\">響咹</span><span begin=\"2:01.712\" end=\"2:02.020\">可</span><span begin=\"2:02.020\" end=\"2:03.205\">否跟跟</span><span begin=\"2:03.205\" end=\"2:03.766\">我</span><span begin=\"2:03.766\" end=\"2:04.271\">聊</span><span begin=\"2:04.304\" end=\"2:04.569\">話</span><span begin=\"2:04.569\" end=\"2:05.375\">到曙</span><span begin=\"2:05.375\" end=\"2:06.216\">光</span></p><p begin=\"2:06.582\" end=\"2:13.408\" itunes:key=\"L18\" ttm:agent=\"v1\"><span begin=\"2:06.582\" end=\"2:07.201\">請</span><span begin=\"2:07.201\" end=\"2:08.029\">不</span><span begin=\"2:08.029\" end=\"2:08.302\">要</span><span begin=\"2:08.302\" end=\"2:09.249\">說</span><span begin=\"2:09.249\" end=\"2:10.086\">晚</span><span begin=\"2:10.086\" end=\"2:13.408\">安</span></p></div><div begin=\"2:13.618\" end=\"2:49.960\" itunes:songPart=\"Chorus\"><p begin=\"2:13.618\" end=\"2:19.196\" itunes:key=\"L19\" ttm:agent=\"v1\"><span begin=\"2:13.618\" end=\"2:14.527\">雙眼</span><span begin=\"2:14.527\" end=\"2:14.855\">合</span><span begin=\"2:14.855\" end=\"2:15.489\">上</span> <span begin=\"2:15.489\" end=\"2:17.251\">看到</span><span begin=\"2:17.251\" end=\"2:18.463\">了</span><span begin=\"2:18.463\" end=\"2:18.741\">寂</span><span begin=\"2:18.741\" end=\"2:19.196\">寞</span></p><p begin=\"2:20.414\" end=\"2:26.552\" itunes:key=\"L20\" ttm:agent=\"v1\"><span begin=\"2:20.414\" end=\"2:21.026\">張</span><span begin=\"2:21.026\" end=\"2:21.662\">眼望</span><span begin=\"2:21.662\" end=\"2:22.191\">見</span> <span begin=\"2:22.191\" end=\"2:23.760\">暗影</span><span begin=\"2:23.760\" end=\"2:25.123\">很</span><span begin=\"2:25.123\" end=\"2:25.421\">清</span><span begin=\"2:25.421\" end=\"2:26.552\">楚</span></p><p begin=\"2:27.031\" end=\"2:33.197\" itunes:key=\"L21\" ttm:agent=\"v1\"><span begin=\"2:27.031\" end=\"2:27.641\">想</span><span begin=\"2:27.641\" end=\"2:27.957\">告</span><span begin=\"2:27.957\" end=\"2:28.289\">別</span><span begin=\"2:28.289\" end=\"2:28.825\">最</span><span begin=\"2:28.825\" end=\"2:30.577\">熟悉</span><span begin=\"2:30.577\" end=\"2:31.830\">的</span><span begin=\"2:31.830\" end=\"2:32.130\">那</span><span begin=\"2:32.130\" end=\"2:33.197\">個</span></p><p begin=\"2:33.386\" end=\"2:36.539\" itunes:key=\"L22\" ttm:agent=\"v1\"><span begin=\"2:33.386\" end=\"2:33.921\">心有</span><span begin=\"2:33.921\" end=\"2:35.191\">很多個</span><span begin=\"2:35.191\" end=\"2:35.403\">如</span><span begin=\"2:35.403\" end=\"2:36.539\">果</span></p><p begin=\"2:36.680\" end=\"2:43.129\" itunes:key=\"L23\" ttm:agent=\"v1\"><span begin=\"2:36.680\" end=\"2:37.316\">驟變</span><span begin=\"2:37.316\" end=\"2:38.529\">幾多個</span> <span begin=\"2:38.529\" end=\"2:38.796\">沒</span><span begin=\"2:38.796\" end=\"2:40.571\">可取</span><span begin=\"2:40.571\" end=\"2:41.830\">的</span><span begin=\"2:41.830\" end=\"2:42.131\">答</span><span begin=\"2:42.131\" end=\"2:43.129\">案</span></p><p begin=\"2:43.440\" end=\"2:49.960\" itunes:key=\"L24\" ttm:agent=\"v1\"><span begin=\"2:43.440\" end=\"2:43.959\">並藏</span><span begin=\"2:43.959\" end=\"2:45.219\">於</span><span begin=\"2:45.219\" end=\"2:45.464\">暗</span><span begin=\"2:45.464\" end=\"2:46.472\">裡</span><span begin=\"2:46.472\" end=\"2:46.869\">渡</span><span begin=\"2:46.869\" end=\"2:49.960\">過</span></p></div><div begin=\"2:53.899\" end=\"3:28.023\" itunes:songPart=\"Chorus\"><p begin=\"2:53.899\" end=\"3:00.002\" itunes:key=\"L25\" ttm:agent=\"v1\"><span begin=\"2:53.899\" end=\"2:54.519\">幾</span><span begin=\"2:54.519\" end=\"2:55.082\">百萬</span><span begin=\"2:55.082\" end=\"2:55.661\">個</span><span begin=\"2:55.661\" end=\"2:57.362\">背影</span><span begin=\"2:57.362\" end=\"2:58.592\">中</span><span begin=\"2:58.592\" end=\"2:58.918\">墮</span><span begin=\"2:58.918\" end=\"3:00.002\">落</span></p><p begin=\"3:00.550\" end=\"3:06.731\" itunes:key=\"L26\" ttm:agent=\"v1\"><span begin=\"3:00.550\" end=\"3:01.127\">於</span><span begin=\"3:01.127\" end=\"3:01.733\">那霓</span><span begin=\"3:01.733\" end=\"3:02.437\">虹</span><span begin=\"3:02.437\" end=\"3:04.070\">映中</span><span begin=\"3:04.070\" end=\"3:05.256\">交</span><span begin=\"3:05.256\" end=\"3:05.586\">錯</span><span begin=\"3:05.586\" end=\"3:06.731\">過</span></p><p begin=\"3:07.286\" end=\"3:13.246\" itunes:key=\"L27\" ttm:agent=\"v1\"><span begin=\"3:07.286\" end=\"3:07.724\">找</span><span begin=\"3:07.724\" end=\"3:08.488\">上萬</span><span begin=\"3:08.488\" end=\"3:09.045\">個</span><span begin=\"3:09.045\" end=\"3:10.771\">自欺</span><span begin=\"3:10.771\" end=\"3:11.988\">的</span><span begin=\"3:11.988\" end=\"3:12.220\">寄</span><span begin=\"3:12.220\" end=\"3:13.246\">託</span></p><p begin=\"3:13.547\" end=\"3:16.767\" itunes:key=\"L28\" ttm:agent=\"v1\"><span begin=\"3:13.547\" end=\"3:14.165\">彷似</span><span begin=\"3:14.165\" end=\"3:14.938\">得到</span><span begin=\"3:14.938\" end=\"3:15.389\">過</span><span begin=\"3:15.389\" end=\"3:15.604\">什</span><span begin=\"3:15.604\" end=\"3:16.767\">麼</span></p><p begin=\"3:16.888\" end=\"3:23.341\" itunes:key=\"L29\" ttm:agent=\"v1\"><span begin=\"3:16.888\" end=\"3:17.466\">在瞬</span><span begin=\"3:17.466\" end=\"3:18.655\">間失去</span> <span begin=\"3:18.655\" end=\"3:18.931\">就</span><span begin=\"3:18.931\" end=\"3:20.842\">這般</span><span begin=\"3:20.842\" end=\"3:22.065\">給</span><span begin=\"3:22.065\" end=\"3:22.367\">遺</span><span begin=\"3:22.367\" end=\"3:23.341\">忘</span></p><p begin=\"3:23.656\" end=\"3:28.023\" itunes:key=\"L30\" ttm:agent=\"v1\"><span begin=\"3:23.656\" end=\"3:24.244\">終究</span><span begin=\"3:24.244\" end=\"3:25.392\">可</span><span begin=\"3:25.497\" end=\"3:25.857\">有</span><span begin=\"3:25.857\" end=\"3:26.707\">快</span><span begin=\"3:26.707\" end=\"3:27.143\">樂</span><span begin=\"3:27.143\" end=\"3:28.023\">過</span></p></div><div begin=\"3:34.198\" end=\"3:49.970\" itunes:songPart=\"Outro\"><p begin=\"3:34.198\" end=\"3:36.941\" itunes:key=\"L31\" ttm:agent=\"v1\"><span begin=\"3:34.198\" end=\"3:35.657\">心空了</span><span begin=\"3:35.657\" end=\"3:35.947\">什</span><span begin=\"3:35.947\" end=\"3:36.941\">麼</span></p><p begin=\"3:37.773\" end=\"3:43.615\" itunes:key=\"L32\" ttm:agent=\"v1\"><span begin=\"3:37.773\" end=\"3:39.121\">感覺再</span><span begin=\"3:39.121\" end=\"3:39.440\">累</span> <span begin=\"3:39.440\" end=\"3:41.356\">都不</span><span begin=\"3:41.356\" end=\"3:42.649\">懂</span><span begin=\"3:42.649\" end=\"3:42.944\">為</span><span begin=\"3:42.944\" end=\"3:43.615\">何</span></p><p begin=\"3:44.191\" end=\"3:49.970\" itunes:key=\"L33\" ttm:agent=\"v1\"><span begin=\"3:44.191\" end=\"3:46.148\">躺好再看</span> <span begin=\"3:46.148\" end=\"3:46.572\">人</span><span begin=\"3:46.572\" end=\"3:47.609\">來</span><span begin=\"3:48.413\" end=\"3:48.860\">又</span><span begin=\"3:48.860\" end=\"3:49.970\">往</span></p></div></body></tt>",
+                "playParams": {
+                  "id": "AP_1729188121",
+                  "kind": "lyric",
+                  "catalogId": "1729188121",
+                  "displayType": 3
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
