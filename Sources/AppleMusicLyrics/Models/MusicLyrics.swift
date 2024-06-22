@@ -29,7 +29,7 @@ public struct Line: Decodable {
     var text: String
 }
 
-extension Line: CustomStringConvertible {
+extension Line: CustomStringConvertible, Hashable {
     public var description: String {
         return "Begin: \(begin), End: \(end), Text: \(text)"
     }

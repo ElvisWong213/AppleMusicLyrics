@@ -58,7 +58,7 @@ public struct SynedLine: Decodable, Equatable {
     }
 }
 
-extension SynedLine: CustomStringConvertible {
+extension SynedLine: CustomStringConvertible, Hashable {
     public var description: String {
         var outputWords = ""
         var outputBackgroundWords = ""
@@ -104,7 +104,7 @@ public struct SynedWord: Decodable, Equatable {
     }
 }
 
-extension SynedWord: CustomStringConvertible {
+extension SynedWord: CustomStringConvertible, Hashable {
     public var description: String {
         return "Begin: \(begin), End: \(end), Text: \(text)"
     }
