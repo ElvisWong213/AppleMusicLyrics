@@ -8,12 +8,12 @@
 import Foundation
 
 // MARK: - MusicLyrics
-struct MusicLyrics: Decodable {
-    var lines: [Line]
+public struct MusicLyrics: Decodable {
+    public var lines: [Line]
 }
 
 extension MusicLyrics: CustomStringConvertible {
-    var description: String {
+    public var description: String {
         var output = ""
         for line in self.lines {
             output += "\n\t\(line)"
@@ -23,14 +23,14 @@ extension MusicLyrics: CustomStringConvertible {
 }
 
 // MARK: - Line
-struct Line: Decodable {
+public struct Line: Decodable {
     var begin: TimeInterval
     var end: TimeInterval
     var text: String
 }
 
 extension Line: CustomStringConvertible {
-    var description: String {
+    public var description: String {
         return "Begin: \(begin), End: \(end), Text: \(text)"
     }
 }

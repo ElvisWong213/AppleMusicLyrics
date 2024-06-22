@@ -8,12 +8,12 @@
 import Foundation
 
 // MARK: - MusicLyrics
-struct SynedMusicLyrics: Decodable, Equatable {
-    var lines: [SynedLine]
+public struct SynedMusicLyrics: Decodable, Equatable {
+    public var lines: [SynedLine]
 }
 
 extension SynedMusicLyrics: CustomStringConvertible {
-    var description: String {
+    public var description: String {
         var output = ""
         for line in self.lines {
             output += "\n\t\(line)"
@@ -23,11 +23,11 @@ extension SynedMusicLyrics: CustomStringConvertible {
 }
 
 // MARK: - Line
-struct SynedLine: Decodable, Equatable {
-    var begin: TimeInterval
-    var end: TimeInterval
-    var words: [SynedWord]
-    var backgroundWords: [SynedWord]
+public struct SynedLine: Decodable, Equatable {
+    public var begin: TimeInterval
+    public var end: TimeInterval
+    public var words: [SynedWord]
+    public var backgroundWords: [SynedWord]
     
     enum CodingKeys: String, CodingKey {
         case begin
@@ -36,14 +36,14 @@ struct SynedLine: Decodable, Equatable {
         case backgroundWords = "background"
     }
     
-    init(begin: TimeInterval, end: TimeInterval, words: [SynedWord], backgroundWords: [SynedWord]) {
+    public init(begin: TimeInterval, end: TimeInterval, words: [SynedWord], backgroundWords: [SynedWord]) {
         self.begin = begin
         self.end = end
         self.words = words
         self.backgroundWords = backgroundWords
     }
     
-    init(from decoder: any Decoder) throws {
+    public init(from decoder: any Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
         self.words = try container.decode([SynedWord].self, forKey: .words)
         self.backgroundWords = try container.decode([SynedWord].self, forKey: .backgroundWords)
@@ -59,7 +59,7 @@ struct SynedLine: Decodable, Equatable {
 }
 
 extension SynedLine: CustomStringConvertible {
-    var description: String {
+    public var description: String {
         var outputWords = ""
         var outputBackgroundWords = ""
         for word in self.words {
@@ -73,12 +73,12 @@ extension SynedLine: CustomStringConvertible {
 }
 
 // MARK: - Word
-struct SynedWord: Decodable, Equatable {
-    var begin: TimeInterval
-    var end: TimeInterval
-    var text: String
+public struct SynedWord: Decodable, Equatable {
+    public var begin: TimeInterval
+    public var end: TimeInterval
+    public var text: String
     
-    init(begin: TimeInterval, end: TimeInterval, text: String) {
+    public init(begin: TimeInterval, end: TimeInterval, text: String) {
         self.begin = begin
         self.end = end
         self.text = text
@@ -90,7 +90,7 @@ struct SynedWord: Decodable, Equatable {
         case text
     }
     
-    init(from decoder: any Decoder) throws {
+    public init(from decoder: any Decoder) throws {
         let container = try decoder.container(keyedBy: CodingKeys.self)
         self.text = try container.decode(String.self, forKey: .text)
         
@@ -105,7 +105,7 @@ struct SynedWord: Decodable, Equatable {
 }
 
 extension SynedWord: CustomStringConvertible {
-    var description: String {
+    public var description: String {
         return "Begin: \(begin), End: \(end), Text: \(text)"
     }
 }
