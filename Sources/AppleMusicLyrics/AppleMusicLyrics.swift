@@ -14,7 +14,7 @@ class AppleMusicLyrics {
         self.userStorefront = nil
     }
     
-    func getSynedLyrics(songID: String, addSpace: Bool) async -> SynedMusicLyrics? {
+    public func getSynedLyrics(songID: String, addSpace: Bool) async -> SynedMusicLyrics? {
         do {
             let url = try await createAppleMusicLyricsURL(songID: songID)
             
@@ -35,7 +35,7 @@ class AppleMusicLyrics {
         }
     }
     
-    func getLyrics(songID: String) async -> MusicLyrics? {
+    public func getLyrics(songID: String) async -> MusicLyrics? {
         do {
             let url = try await createAppleMusicLyricsURL(songID: songID)
             
