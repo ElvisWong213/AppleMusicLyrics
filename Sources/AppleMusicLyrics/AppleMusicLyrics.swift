@@ -23,7 +23,7 @@ public class AppleMusicLyrics {
             
             var synedLyrics = try parseSynedLyricsResponse(lyricsResponse: lyricsResponse)
             
-            if addSpace == false {
+            if addSpace == true {
                 let lyrics = try parseLyricsResponse(lyricsResponse: lyricsResponse)
                 addSpaceToSynedLyrics(synedLyrics: &synedLyrics, lyrics: lyrics)
             }
