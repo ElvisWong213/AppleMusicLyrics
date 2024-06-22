@@ -8,7 +8,7 @@ public class AppleMusicLyrics {
     var accessToken: String?
     var userStorefront: String?
     
-    init(userToken: String) {
+    public init(userToken: String) {
         self.userToken = userToken
         self.accessToken = nil
         self.userStorefront = nil
