@@ -49,7 +49,7 @@ public class AppleMusicLyrics {
         }
     }
     
-    internal func parseSynedLyricsResponse(lyricsResponse: LyricsResponse?) throws -> SynedMusicLyrics? {
+    public func parseSynedLyricsResponse(lyricsResponse: LyricsResponse?) throws -> SynedMusicLyrics? {
         guard let synedLyricTTML = lyricsResponse?.data?.first?.relationships?.syllableLyrics?.data?.first?.attributes?.ttml else {
             throw AppleMusicLyricsError.LyricsNotFound
         }
@@ -66,7 +66,7 @@ public class AppleMusicLyrics {
         return parser.getParsedLyric()
     }
     
-    internal func parseLyricsResponse(lyricsResponse: LyricsResponse?) throws -> MusicLyrics? {
+    public func parseLyricsResponse(lyricsResponse: LyricsResponse?) throws -> MusicLyrics? {
         guard let lyricTTML = lyricsResponse?.data?.first?.relationships?.lyrics?.data?.first?.attributes?.ttml else {
             throw AppleMusicLyricsError.LyricsNotFound
         }

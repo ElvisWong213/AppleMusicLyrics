@@ -1,7 +1,7 @@
 import Foundation
 
 // MARK: - LyricsResponse
-struct LyricsResponse: Codable {
+public struct LyricsResponse: Codable {
     let data: [LyricsResponseDatum]?
 }
 
