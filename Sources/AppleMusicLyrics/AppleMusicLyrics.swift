@@ -3,8 +3,8 @@
 
 import Foundation
 
-class AppleMusicLyrics {
-    let userToken: String
+public class AppleMusicLyrics {
+    public var userToken: String
     var accessToken: String?
     var userStorefront: String?
     
