@@ -24,9 +24,9 @@ extension MusicLyrics: CustomStringConvertible {
 
 // MARK: - Line
 public struct Line: Codable {
-    var begin: TimeInterval
-    var end: TimeInterval
-    var text: String
+    public var begin: TimeInterval
+    public var end: TimeInterval
+    public var text: String
 }
 
 extension Line: CustomStringConvertible, Hashable {
