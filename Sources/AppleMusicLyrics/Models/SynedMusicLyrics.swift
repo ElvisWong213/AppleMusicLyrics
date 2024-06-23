@@ -8,7 +8,7 @@
 import Foundation
 
 // MARK: - MusicLyrics
-public struct SynedMusicLyrics: Decodable, Equatable {
+public struct SynedMusicLyrics: Codable, Equatable, Hashable {
     public var lines: [SynedLine]
 }
 
@@ -23,7 +23,7 @@ extension SynedMusicLyrics: CustomStringConvertible {
 }
 
 // MARK: - Line
-public struct SynedLine: Decodable, Equatable {
+public struct SynedLine: Codable, Equatable {
     public var begin: TimeInterval
     public var end: TimeInterval
     public var words: [SynedWord]
@@ -73,7 +73,7 @@ extension SynedLine: CustomStringConvertible, Hashable {
 }
 
 // MARK: - Word
-public struct SynedWord: Decodable, Equatable {
+public struct SynedWord: Codable, Equatable {
     public var begin: TimeInterval
     public var end: TimeInterval
     public var text: String

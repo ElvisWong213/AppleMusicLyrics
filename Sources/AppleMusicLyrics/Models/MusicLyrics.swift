@@ -8,7 +8,7 @@
 import Foundation
 
 // MARK: - MusicLyrics
-public struct MusicLyrics: Decodable {
+public struct MusicLyrics: Codable, Hashable {
     public var lines: [Line]
 }
 
@@ -23,7 +23,7 @@ extension MusicLyrics: CustomStringConvertible {
 }
 
 // MARK: - Line
-public struct Line: Decodable {
+public struct Line: Codable {
     var begin: TimeInterval
     var end: TimeInterval
     var text: String
