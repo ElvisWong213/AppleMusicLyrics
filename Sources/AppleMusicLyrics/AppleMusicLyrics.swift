@@ -7,20 +7,16 @@ public class AppleMusicLyrics {
     public var userToken: String
     var accessToken: String?
     var userStorefront: String?
+    var lyricsResponseCache: LyricsResponse?
+    var songIDCache: String?
     
     public init(userToken: String) {
         self.userToken = userToken
-        self.accessToken = nil
-        self.userStorefront = nil
     }
     
     public func getSynedLyrics(songID: String, addSpace: Bool) async -> SynedMusicLyrics? {
         do {
-            let url = try await createAppleMusicLyricsURL(songID: songID)
-            
-            let responseData = try await getRequest(url: url, isAuthorize: true)
-            let lyricsResponse = try? JSONDecoder().decode(LyricsResponse.self, from: responseData)
-            
+            let lyricsResponse = try await getLyricsResponseCache(songID: songID)
             var synedLyrics = try parseSynedLyricsResponse(lyricsResponse: lyricsResponse)
             
             if addSpace == true {
@@ -37,10 +33,7 @@ public class AppleMusicLyrics {
     
     public func getLyrics(songID: String) async -> MusicLyrics? {
         do {
-            let url = try await createAppleMusicLyricsURL(songID: songID)
-            
-            let responseData = try await getRequest(url: url, isAuthorize: true)
-            let lyricsResponse = try? JSONDecoder().decode(LyricsResponse.self, from: responseData)
+            let lyricsResponse = try await getLyricsResponseCache(songID: songID)
 
             return try parseLyricsResponse(lyricsResponse: lyricsResponse)
         } catch {
@@ -81,6 +74,19 @@ public class AppleMusicLyrics {
         
         xmlParser.parse()
         return parser.getParsedLyric()
+    }
+    
+    internal func getLyricsResponseCache(songID: String) async throws -> LyricsResponse? {
+        var lyricsResponse: LyricsResponse?
+        if songID != songIDCache || lyricsResponseCache == nil {
+            let url = try await createAppleMusicLyricsURL(songID: songID)
+            
+            let responseData = try await getRequest(url: url, isAuthorize: true)
+            lyricsResponseCache = try? JSONDecoder().decode(LyricsResponse.self, from: responseData)
+            songIDCache = songID
+            lyricsResponseCache = lyricsResponse
+        } 
+        return lyricsResponseCache
     }
     
     internal func createAppleMusicLyricsURL(songID: String) async throws -> URL {
