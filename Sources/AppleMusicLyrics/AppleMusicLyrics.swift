@@ -77,14 +77,12 @@ public class AppleMusicLyrics {
     }
     
     internal func getLyricsResponseCache(songID: String) async throws -> LyricsResponse? {
-        var lyricsResponse: LyricsResponse?
         if songID != songIDCache || lyricsResponseCache == nil {
             let url = try await createAppleMusicLyricsURL(songID: songID)
             
             let responseData = try await getRequest(url: url, isAuthorize: true)
             lyricsResponseCache = try? JSONDecoder().decode(LyricsResponse.self, from: responseData)
             songIDCache = songID
-            lyricsResponseCache = lyricsResponse
         } 
         return lyricsResponseCache
     }
