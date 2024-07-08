@@ -14,6 +14,11 @@ public class AppleMusicLyrics {
         self.userToken = userToken
     }
     
+    /// Retrieves synchronized lyrics for a given song ID.
+    /// - Parameters:
+    ///   - songID: The unique identifier of the song
+    ///   - addSpace: A boolean flag to indicate whether to add spaces in lyrics
+    /// - Returns: Synchronized lyrics if successful, nil otherwise
     public func getSynedLyrics(songID: String, addSpace: Bool) async -> SynedMusicLyrics? {
         do {
             let lyricsResponse = try await getLyricsResponseCache(songID: songID)
@@ -31,6 +36,9 @@ public class AppleMusicLyrics {
         }
     }
     
+    /// Retrieves lyrics for a given song ID.
+    /// - Parameter songID: The unique identifier of the song
+    /// - Returns: Lyrics if successful, nil otherwise
     public func getLyrics(songID: String) async -> MusicLyrics? {
         do {
             let lyricsResponse = try await getLyricsResponseCache(songID: songID)
@@ -42,6 +50,9 @@ public class AppleMusicLyrics {
         }
     }
     
+    /// Parses the synchronized lyrics response.
+    /// - Parameter lyricsResponse: The response containing synchronized lyrics data
+    /// - Returns: Synchronized lyrics object if successful, nil otherwise
     public func parseSynedLyricsResponse(lyricsResponse: LyricsResponse?) throws -> SynedMusicLyrics? {
         guard let synedLyricTTML = lyricsResponse?.data?.first?.relationships?.syllableLyrics?.data?.first?.attributes?.ttml else {
             throw AppleMusicLyricsError.LyricsNotFound
@@ -59,6 +70,9 @@ public class AppleMusicLyrics {
         return parser.getParsedLyric()
     }
     
+    /// Parses the lyrics response.
+    /// - Parameter lyricsResponse: The response containing lyrics data
+    /// - Returns: Lyrics object if successful, nil otherwise
     public func parseLyricsResponse(lyricsResponse: LyricsResponse?) throws -> MusicLyrics? {
         guard let lyricTTML = lyricsResponse?.data?.first?.relationships?.lyrics?.data?.first?.attributes?.ttml else {
             throw AppleMusicLyricsError.LyricsNotFound
@@ -76,7 +90,7 @@ public class AppleMusicLyrics {
         return parser.getParsedLyric()
     }
     
-    internal func getLyricsResponseCache(songID: String) async throws -> LyricsResponse? {
+    func getLyricsResponseCache(songID: String) async throws -> LyricsResponse? {
         if songID != songIDCache || lyricsResponseCache == nil {
             let url = try await createAppleMusicLyricsURL(songID: songID)
             
@@ -87,7 +101,7 @@ public class AppleMusicLyrics {
         return lyricsResponseCache
     }
     
-    internal func createAppleMusicLyricsURL(songID: String) async throws -> URL {
+    func createAppleMusicLyricsURL(songID: String) async throws -> URL {
         if self.accessToken == nil {
             self.accessToken = await getAccessToken()
         }
@@ -106,7 +120,7 @@ public class AppleMusicLyrics {
         return url
     }
     
-    internal func addSpaceToSynedLyrics(synedLyrics: inout SynedMusicLyrics?, lyrics: MusicLyrics?) {
+    func addSpaceToSynedLyrics(synedLyrics: inout SynedMusicLyrics?, lyrics: MusicLyrics?) {
         guard let lyrics = lyrics, synedLyrics != nil else {
             return
         }
