@@ -2,15 +2,21 @@ import XCTest
 @testable import AppleMusicLyrics
 
 final class AppleMusicLyricsTests: XCTestCase {
+    let appleMusicLyrics = AppleMusicLyrics(userToken: "")
+
     func testGetAccessToken() async throws {
-        let appleMusicLyrics = AppleMusicLyrics(userToken: "")
         let data = await appleMusicLyrics.getAccessToken()
         XCTAssertNotNil(data)
     }
     
+    func testGetUserStorefront() async {
+        appleMusicLyrics.accessToken = await appleMusicLyrics.getAccessToken()
+        let userStoreFront = await appleMusicLyrics.getUserStorefront()
+        XCTAssertNotNil(userStoreFront)
+
+    }
+    
     func testParseSynedLyricsResponse() async throws {
-        let appleMusicLyrics = AppleMusicLyrics(userToken: "")
-        
         // Test File 1
         guard let url = Bundle.module.url(forResource: "response", withExtension: "json"), let data = try? Data(contentsOf: url) else {
             XCTFail("No JSON File")
@@ -33,8 +39,6 @@ final class AppleMusicLyricsTests: XCTestCase {
     }
     
     func testParseLyricsResponse() async throws {
-        let appleMusicLyrics = AppleMusicLyrics(userToken: "")
-        
         // Test File 1
         guard let url = Bundle.module.url(forResource: "response", withExtension: "json"), let data = try? Data(contentsOf: url) else {
             XCTFail("No JSON File")
@@ -57,8 +61,6 @@ final class AppleMusicLyricsTests: XCTestCase {
     }
     
     func testAddSpaceToSynedLyrics() async throws {
-        let appleMusicLyrics = AppleMusicLyrics(userToken: "")
-        
         // Test File
         guard let url = Bundle.module.url(forResource: "response2", withExtension: "json"), let data = try? Data(contentsOf: url) else {
             XCTFail("No Test File")
